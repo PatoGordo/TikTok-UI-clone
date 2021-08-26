@@ -1,0 +1,32 @@
+{
+  "name": "tik-tok-ui-clone",
+  "repository": "https://github.com/PatoGordo/TikTok-UI-clone.git",
+  "author": "PatoGordo",
+  "license": "GPL-3",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "serve": "vite preview",
+    "checkout": "yarn run eslint --fix \"src/**/*.{ts,vue}\" && prettier --write --ignore-unknown ."
+  },
+  "dependencies": {
+    "vue": "^3.2.6",
+    "vue-router": "^4.0.11"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.29.3",
+    "@typescript-eslint/parser": "^4.29.3",
+    "@vitejs/plugin-vue": "^1.6.0",
+    "@vue/compiler-sfc": "^3.0.5",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^7.16.0",
+    "husky": "^7.0.2",
+    "lint-staged": "^11.1.2",
+    "prettier": "2.3.2",
+    "sass": "^1.38.1",
+    "typescript": "^4.3.2",
+    "vite": "^2.5.1",
+    "vue-tsc": "^0.2.2"
+  }
+}
